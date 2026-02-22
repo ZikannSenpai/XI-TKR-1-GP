@@ -100,14 +100,14 @@ export default function Home() {
             {/* Instagram & Web Pembuat */}
             <div className="flex flex-wrap justify-center gap-4 py-6">
                 <Link
-                    href="https://instagram.com/kelas_tkr1_giripuro"
+                    href="#"
                     target="_blank"
                     className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition transform active:scale-95"
                 >
                     Instagram Kelas
                 </Link>
                 <Link
-                    href="https://portofolio-pembuat.com"
+                    href=""
                     target="_blank"
                     className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition transform active:scale-95"
                 >
