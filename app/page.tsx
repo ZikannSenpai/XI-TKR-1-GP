@@ -204,7 +204,7 @@ export default function Home() {
                     {/* Logo */}
                     <div className="flex justify-center md:justify-start">
                         <Image
-                            src="/images/logo.png"
+                            src="/images/logo.jpeg"
                             alt="Logo SMK GIRIPURO"
                             width={100}
                             height={100}
@@ -230,14 +230,14 @@ export default function Home() {
                         </h4>
                         <div className="flex gap-4">
                             <Link
-                                href="https://tiktok.com/@tkr1_giripuro"
+                                href="https://tiktok.com/@zikannsenpai"
                                 target="_blank"
                                 className="hover:text-blue-300"
                             >
                                 TikTok
                             </Link>
                             <Link
-                                href="https://youtube.com/@tkr1_giripuro"
+                                href="https://youtube.com/@zikannsenpai"
                                 target="_blank"
                                 className="hover:text-blue-300"
                             >
@@ -321,9 +321,9 @@ function Section({
 function Carousel() {
     const [current, setCurrent] = useState(0);
     const images = [
-        "/images/gallery1.jpg",
-        "/images/gallery2.jpg",
-        "/images/gallery3.jpg"
+        "/images/foto1.jpg",
+        "/images/foto2.jpg",
+        "/images/foto3.jpg"
     ];
 
     useEffect(() => {
