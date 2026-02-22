@@ -320,11 +320,13 @@ function Section({
 // Komponen Carousel otomatis
 function Carousel() {
     const [current, setCurrent] = useState(0);
-    const images = [
-        "/images/foto1.jpg",
-        "/images/foto2.jpg",
-        "/images/foto3.jpg"
-    ];
+    const [images, setImages] = useState<string[]>([]);
+
+    useEffect(() => {
+        fetch("/api/gallery")
+            .then(res => res.json())
+            .then(data => setImages(data));
+    }, []);
 
     useEffect(() => {
         const timer = setInterval(() => {
