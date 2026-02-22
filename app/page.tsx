@@ -217,7 +217,7 @@ export default function Home() {
                         <h4 className="font-semibold text-lg mb-2">
                             Created by
                         </h4>
-                        <p>Tim IT Kelas XI TKR 1</p>
+                        <p>ZikDev Kelas XI TKR 1</p>
                         <p className="text-sm text-blue-200">
                             dengan ❤️ untuk GIRIPURO
                         </p>
