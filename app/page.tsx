@@ -7,24 +7,20 @@ import { useInView } from "react-intersection-observer";
 
 // Data struktur organisasi
 const strukturData = [
-    { jabatan: "Wali Kelas", nama: "Budi Santoso, S.Pd" },
-    { jabatan: "Ketua Kelas", nama: "Andi Saputra" },
-    { jabatan: "Wakil Ketua", nama: "Siti Aminah" },
-    { jabatan: "Sekretaris", nama: "Rina Wati" },
-    { jabatan: "Bendahara", nama: "Dedi Kurniawan" },
-    { jabatan: "Keamanan", nama: "Joko Susilo" },
-    { jabatan: "Kebersihan", nama: "Maya Sari" },
-    { jabatan: "Olahraga", nama: "Agus Prasetyo" }
+    { jabatan: "Wali Kelas", nama: "Pak Inggar, S.Pd" },
+    { jabatan: "Ketua Kelas", nama: "Marvin" },
+    { jabatan: "Wakil Ketua", nama: "Fadli" },
+    { jabatan: "Sekretaris", nama: "Ardinda" },
+    { jabatan: "Bendahara", nama: "Ricky Julian" }
 ];
 
 // Jadwal pelajaran statis
 const jadwal: Record<string, string[]> = {
-    Senin: ["Matematika", "Bahasa Indonesia", "Fisika", "Kimia"],
-    Selasa: ["Bahasa Inggris", "Produktif TKR", "PKN", "Olahraga"],
-    Rabu: ["Agama", "Matematika", "Sejarah", "Bahasa Jawa"],
-    Kamis: ["Produktif TKR", "Fisika", "Bahasa Inggris", "Seni Budaya"],
-    Jumat: ["Kimia", "Bahasa Indonesia", "Produktif TKR", "BK"],
-    Sabtu: ["Matematika", "Produktif TKR", "Bahasa Inggris", "Olahraga"]
+    Senin: ["Pend. Pancasila", "Bahasa Inggris", "BK", "Matematika", "KK TKR"],
+    Selasa: ["Bahasa Inggris", "Kokurikuler", "KK TKR", "KIK"],
+    Rabu: ["Bahasa Indonesia", "KK TKR", "Sejarah", "KIK"],
+    Kamis: ["Kokurikuler", "KK TKR", "PAIBP", "Bahasa Jawa"],
+    Jumat: ["PJOK", "Mapil Sepeda Motor"]
 };
 
 export default function Home() {

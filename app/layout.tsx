@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
     title: "XI TKR 1 GIRIPURO",
-    description: "Website resmi kelas XI TKR 1 SMK GIRIPURO",
+    description: "Website Kelas XI TKR 1 GIRIPURO SUMPIUH",
     icons: {
         icon: "/favicon.ico" // pastikan file logo sekolah diletakkan di public/favicon.ico
     }
